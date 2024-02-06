@@ -3,7 +3,7 @@
 
 | Audience      | Prerequisites | Duration    |
 | ------------- | ------------- | ----------- |
-| Biologists    |Install R Studio|~ 1 hour    |
+| Biologists    |Install R Studio|~ 0.5 hour    |
 | Biologists    |Install Seurat and SeuratData|~ 0.5 hour    |
 
 
@@ -21,7 +21,7 @@ Download the most recent version of R and RStudio using the links below:
 
 ### Material
 
-[Click here](https://melbintgen.github.io) to access the HTML workshop document.
+[Click here](https://melbintgen.github.io/Intro-to-scRNA-seq-analysis/scRNAseq_workshop.html) to access the HTML workshop document.
 
 ### Data
 All data is used from the Seurat-data package.
