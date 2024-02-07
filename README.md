@@ -29,6 +29,12 @@ remotes::install_github("satijalab/seurat-data", quiet = TRUE)
 # then test if packages have been installed
 library(Seurat) 
 library(SeuratData)
+
+# And install the data
+InstallData("pbmcsca")
+
+data("pbmcsca")
+pbmcsca <- UpdateSeuratObject(pbmcsca)
 ```
 
 More details on the packages:
