@@ -1,5 +1,5 @@
 # Introduction to scRNA-seq analysis
-**Authors: Xiaochen Zhang, Jiadong Mao, Kim-Anh L&#234; Cao, Saritha Kodikara, Daniel Rawlinson**
+**Authors: Xiaochen Zhang, Ruiqing Zhu, Jiadong Mao, Kim-Anh L&#234; Cao, Saritha Kodikara, Daniel Rawlinson**
 
 | Audience      | Prerequisites | Duration    |
 | ------------- | ------------- | ----------- |
