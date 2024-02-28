@@ -9,9 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Xiaochen Zhang, Jiadong Mao, Kim-Anh Lê Cao" />
+<meta name="author" content="Xiaochen Zhang, Ruiqing Zhu, Jiadong Mao, Kim-Anh Lê Cao" />
 
-<meta name="date" content="2024-02-07" />
+<meta name="date" content="2024-02-28" />
 
 <title>Introduction to single-cell RNA-seq analysis using Seurat</title>
 
@@ -2752,8 +2752,9 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore">Introduction to single-cell RNA-seq
 analysis using Seurat</h1>
-<h4 class="author">Xiaochen Zhang, Jiadong Mao, Kim-Anh Lê Cao</h4>
-<h4 class="date">07 February 2024</h4>
+<h4 class="author">Xiaochen Zhang, Ruiqing Zhu, Jiadong Mao, Kim-Anh Lê
+Cao</h4>
+<h4 class="date">28 February 2024</h4>
 
 </div>
 
@@ -2833,7 +2834,9 @@ includes single-cell RNA-seq data of human peripheral blood mononuclear
 cells (PBMCs) using multiple sequencing platforms. Only data that
 <em>passed quality control</em> are included in the <code>pbmcsca</code>
 dataset.</p>
-<pre class="r"><code>data(&quot;pbmcsca&quot;)
+<pre class="r"><code>InstallData(&quot;pbmcsca&quot;)
+
+data(&quot;pbmcsca&quot;)
 pbmcsca &lt;- UpdateSeuratObject(pbmcsca)</code></pre>
 <p>(You can ignore the warning message).</p>
 <pre class="r"><code>table(pbmcsca$Method)</code></pre>
